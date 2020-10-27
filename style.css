@@ -1,0 +1,64 @@
+
+body {
+    background-color: #fffbf7;
+  }
+  
+  #titulo {
+    color: #46484c;
+    text-align: center;
+  }
+  
+  #texto {
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 12px;
+  }
+
+  .button
+  {
+       padding-left: 90px;
+       
+  }
+  
+  button
+  {
+       margin-left: .5em;
+       width: 80px;
+       height: 25px;
+       background: #025157;
+       -moz-border-radius: 20px;
+       -webkit-border-radius: 20px;
+       border-radius: 20px;
+  }
+
+form
+{
+     margin: 0 auto;
+     width: 500px;
+     padding: 1em;
+     border: 1px solid #140e0e;
+     border-radius: 1em;
+          
+}
+
+label
+{
+      display: inline-block;
+      width: 90px;
+      text-aling: left;
+}
+
+form div + div
+{
+     margin-top: 1em;
+}
+
+input, select
+{
+      font: 1em sans-serif;
+      width: 300px;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #6969db;
+}
+
